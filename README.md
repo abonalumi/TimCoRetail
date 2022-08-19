@@ -1,2 +1,2 @@
-# TinCoRetail
+# TimCoRetail
 Practice
