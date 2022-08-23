@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCoRetailAPI", "TimCoRetailAPI\TimCoRetailAPI.csproj", "{FD94BA5B-D965-4D73-B497-7ECC73317F5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCoRetailWPF", "TimCoRetailWPF\TimCoRetailWPF.csproj", "{D63ADA6D-38C2-47E7-913F-053B8349D81E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TimCoRetailSQLDatabase", "TimCoRetailSQLDatabase\TimCoRetailSQLDatabase.sqlproj", "{83DCD235-2A61-44CD-8B74-36370B44147D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{FD94BA5B-D965-4D73-B497-7ECC73317F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD94BA5B-D965-4D73-B497-7ECC73317F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD94BA5B-D965-4D73-B497-7ECC73317F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63ADA6D-38C2-47E7-913F-053B8349D81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63ADA6D-38C2-47E7-913F-053B8349D81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63ADA6D-38C2-47E7-913F-053B8349D81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63ADA6D-38C2-47E7-913F-053B8349D81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DCD235-2A61-44CD-8B74-36370B44147D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DCD235-2A61-44CD-8B74-36370B44147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DCD235-2A61-44CD-8B74-36370B44147D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{83DCD235-2A61-44CD-8B74-36370B44147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DCD235-2A61-44CD-8B74-36370B44147D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DCD235-2A61-44CD-8B74-36370B44147D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
