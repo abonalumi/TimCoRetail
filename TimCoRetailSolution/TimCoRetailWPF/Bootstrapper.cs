@@ -11,11 +11,10 @@ namespace TimCoRetailWPF
 {
     public class Bootstrapper : BootstrapperBase
     {
-        private SimpleContainer _container;
-        public Bootstrapper(SimpleContainer container)
+        private SimpleContainer _container = new SimpleContainer();
+        public Bootstrapper()
         {
             Initialize();
-            _container = container;
         }
 
         protected override void OnStartup(object sender, StartupEventArgs e)
@@ -48,7 +47,7 @@ namespace TimCoRetailWPF
                 .Where(type => type.IsClass)
                 .Where(type => type.Name.EndsWith("ViewModel"))
                 .ToList()
-                .ToEach(viewModelType => _container.RegisterPerRequest(viewModelType, viewModelType.ToString(), viewModelType()));
+                .ForEach(viewModelType => _container.RegisterPerRequest(viewModelType, viewModelType.ToString(), viewModelType));
         }
     }
 }

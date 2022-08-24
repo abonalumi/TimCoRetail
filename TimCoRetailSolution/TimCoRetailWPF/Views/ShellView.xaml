@@ -17,6 +17,17 @@
                     <MenuItem x:Name="LoginScreen" Header="_Log in"></MenuItem>
                 </MenuItem>
             </Menu>
+            <ContentControl x:Name="ActiveItem"></ContentControl>
         </DockPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
